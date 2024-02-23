@@ -15,7 +15,7 @@ jobs:
           node-version: 20
 
       - name: Install PNPM
-        uses: npm/action-setup@v2
+        uses: actions/cache@v4
         with:
           version: 8
           run_install: false
